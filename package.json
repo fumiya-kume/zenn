@@ -1,0 +1,15 @@
+{
+  "name": "zenn",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "lint": "textlint \"articles/**/*.md\" \"books/**/*.md\"",
+    "lint:fix": "textlint --fix \"articles/**/*.md\" \"books/**/*.md\""
+  },
+  "devDependencies": {
+    "textlint": "^14.0.0",
+    "textlint-rule-preset-ja-spacing": "^2.3.0",
+    "textlint-rule-preset-ja-technical-writing": "^10.0.1",
+    "textlint-rule-prh": "^6.0.0"
+  }
+}

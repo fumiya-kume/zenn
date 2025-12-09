@@ -1,0 +1,29 @@
+{
+  "rules": {
+    "preset-ja-spacing": {
+      "ja-space-between-half-and-full-width": {
+        "space": "never"
+      },
+      "ja-space-around-code": {
+        "before": true,
+        "after": true
+      }
+    },
+    "preset-ja-technical-writing": {
+      "sentence-length": {
+        "max": 150
+      },
+      "max-comma": {
+        "max": 4
+      },
+      "max-ten": {
+        "max": 3
+      },
+      "no-exclamation-question-mark": false,
+      "ja-no-weak-phrase": false,
+      "ja-no-mixed-period": {
+        "allowPeriodMarks": [":", "..."]
+      }
+    }
+  }
+}
